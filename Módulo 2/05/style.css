@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100&family=Water+Brush&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom,  #CB6CF6 20%,#CF5DD4,#EB74B7,#D45D65);
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1#principal{
+    color: #7543d3;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font: normal 4em 'Truculenta';
+}
+
+h1{
+    text-indent: 1em;
+    color: #cc43d3;
+    text-shadow: 0.5px 0.5px 1px black;
+}
+
+h2{
+    text-indent: 1em;
+    color: #cd79d1;
+    text-shadow: 0.5px 0.5px 1px black;
+}
+
+p{
+    text-indent: 1em;
+    font: normal 1.4em 'Truculenta';
+    text-align: justify;
+}
+
+
+.basico{
+    background-color: #6cf67e;
+}
+
+.intermediario{
+    background-color: #f6ed6c;
+}
+
+.avancado{
+    background-color: #f66c6c;
+}
